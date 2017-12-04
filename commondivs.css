@@ -40,13 +40,23 @@ img
 	height:auto;
 	z-index:10;
 }
+.resultbackground
+{
+	left:20px;
+	top:10px;
+	position:absolute;
+	width:577px;
+	height:1016px;
+	z-index:11;
+	border:3px solid;
+}
 .locator 
 {
 	position:absolute;
 	background-color: darkgoldenrod;
     text-align: center;
 	top:20px;
-	left:600px;
+	left:900px;
 	width:200px;
 	height:50px;
 	z-index:30;
@@ -56,19 +66,26 @@ img
 	position:absolute;
 	background-color: green;
     text-align: center;
-	top:50px;
+	top:150px;
 	left:900px;
 	width:200px;
 	height:100px;
 	z-index:20;
 }
+.container
+{
+	position:absolute;
+	top:20px;
+	left:100px;
+	width:500px;
+	height:1000px;
+	z-index:50;
+}
 .redjedan
 {
 	position:absolute;
-	
-  
-	top:20px;
-	left:50px;
+	top:0px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -76,10 +93,8 @@ img
 .reddva
 {
 	position:absolute;
-	
-    
-	top:120px;
-	left:50px;
+	top:100px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -87,10 +102,8 @@ img
 .redtri
 {
 	position:absolute;
-	
-   
-	top:220px;
-	left:50px;
+	top:200px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -98,10 +111,8 @@ img
 .redcetiri
 {
 	position:absolute;
-	
-    
-	top:320px;
-	left:50px;
+	top:300px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -109,10 +120,8 @@ img
 .redpet
 {
 	position:absolute;
-	
-   
-	top:420px;
-	left:50px;
+	top:400px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -120,10 +129,8 @@ img
 .redsest
 {
 	position:absolute;
-	
-   
-	top:520px;
-	left:50px;
+	top:500px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -131,10 +138,8 @@ img
 .redsedam
 {
 	position:absolute;
-	
-   
-	top:620px;
-	left:50px;
+	top:600px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -142,10 +147,8 @@ img
 .redosam
 {
 	position:absolute;
-	
-    
-	top:720px;
-	left:50px;
+	top:700px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -153,10 +156,8 @@ img
 .reddevet
 {
 	position:absolute;
-	
-    
-	top:820px;
-	left:50px;
+	top:800px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
@@ -164,11 +165,149 @@ img
 .reddeset
 {
 	position:absolute;
-
-   
-	top:920px;
-	left:50px;
+	top:900px;
+	left:0px;
 	width:400px;
 	height:100px;
 	z-index:20;
+}
+.containerq
+{
+	position:absolute;
+	top:20px;
+	left:400px;
+	width:400px;
+	height:1000px;
+	z-index:100;
+}
+.maleslikeq
+{
+	top:0px;
+	left:0px;
+	width:100px;
+	height:100px;
+	margin:0px;
+	border:0px;
+}
+.redtekstq
+{
+	position:absolute;
+	/*background-color: purple;*/
+    text-align: center;
+	top:0px;
+	left:100px;
+	width:300px;
+	height:100px;
+	z-index:20;
+	font-size:20px;
+	font-family:Bookman Old Style;
+}
+.redjedanq
+{
+	position:absolute;
+	
+  
+	top:0px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.reddvaq
+{
+	position:absolute;
+	
+    
+	top:100px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.redtriq
+{
+	position:absolute;
+	
+   
+	top:200px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.redcetiriq
+{
+	position:absolute;
+	
+    
+	top:300px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.redpetq
+{
+	position:absolute;
+	
+   
+	top:400px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.redsestq
+{
+	position:absolute;
+	
+   
+	top:500px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.redsedamq
+{
+	position:absolute;
+	
+   
+	top:600px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.redosamq
+{
+	position:absolute;
+	
+    
+	top:700px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.reddevetq
+{
+	position:absolute;
+	
+    
+	top:800px;
+	left:0px;
+	width:400px;
+	height:100px;
+	z-index:20;
+}
+.reddesetq
+{
+	position:absolute;
+
+   
+	top:900px;
+	left:0px;
+	width:400px;
+	height:100px;
 }
